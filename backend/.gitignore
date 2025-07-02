@@ -1,0 +1,22 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+/bin/
+/build/
+*.exe
+
+# Ignore dependencies
+node_modules/
+vendor/
+
+# Ignore logs
+*.log
+
+# Ignore env files (sensitive data!)
+.env
+secrets.ini
+
+# BUT keep important config
+!.env.example
